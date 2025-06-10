@@ -1,0 +1,68 @@
+:root{
+    --theme-color: #8a5628
+}
+.header-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#carousel-home .owl-carousel .owl-slide,
+#carousel-home-2 .owl-carousel .owl-slide {
+  height:100vh !important;
+  position:relative
+}
+.theme-color{
+    color: var(--theme-color);
+}
+.btn_1:hover{
+    background-color: green;
+}
+.popup-form{
+    max-width: 500px;
+    max-height: 609px;
+}
+.form-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 15px;
+}
+.form-logo>img{
+    width: 250px;
+}
+.enquiry-form{
+    padding: 20px 30px;
+}
+
+
+/* counter section  */
+.counter-section {
+    background: url('../img/index/counter-bg.JPG') no-repeat center center/cover;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.counter-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    p{
+        font-size: x-large;
+    }
+}
+.counter-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+.we-assure-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.we-assure-image>img{
+    width: 200px;
+    border-radius: 35%;
+}
