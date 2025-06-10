@@ -515,7 +515,7 @@ header.sticky a.open_close,
 .main-menu {
     position: relative;
     z-index: 9;
-    top: 1px;
+    top: 18px;
     float: right;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -2978,11 +2978,11 @@ ul#banners_grid li a.img_container .short_info p {
 }
 
 .box_contacts small a {
-    color: #777
+    color: #a7a7a7
 }
 
 .box_contacts small a:hover {
-    color: #111
+    color: var(--theme-color)
 }
 
 iframe.map_contact {
