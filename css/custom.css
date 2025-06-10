@@ -37,7 +37,7 @@
 
 /* counter section  */
 .counter-section {
-    background: url('../img/index/counter-bg.JPG') no-repeat center center/cover;
+    background: url('../images/index/counter-bg.jpg') no-repeat center center/cover;
     padding: 100px 0;
     color: white;
     text-align: center;
@@ -153,4 +153,7 @@ h1, h2, h3, h4  {
 @keyframes shine {
   to{background-position: right}
  
+}
+p{
+    color: rgb(186, 186, 186) !important;
 }
